@@ -1,18 +1,17 @@
 # Welcome to My Website! 👋
 
-This is a simple Flask-powered website 🚀. Let's see what it offers!
+This is a simple Flask-powered website 🚀.
 
 ## Getting Started
 ### Requirements:
 Python 3.x and Flask (dependencies in `pyproject.toml`).
 
 ### Installation:
-1. Clone the repo: `git clone https://github.com/your-repo.git`
+1. Clone the repo
 2. Install dependencies:
    ```bash
-   poetry install  # if using Poetry
+   uv sync
    ```
-   or check `pyproject.toml`.
 
 ### Run Locally:
 ```bash
@@ -24,10 +23,4 @@ Open [http://localhost:5000](http://localhost:5000) 🌐.
 - Responsive design
 - Clean interface
 
-## Contributing
-Fork ➕ and submit PRs!
-
-## Contact
-Questions? Email me or visit GitHub.
-
-Happy coding! 💻
+Happy browsing! 💻
