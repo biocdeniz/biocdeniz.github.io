@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <base href="/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos De Niz | PhD Electrical Engineering</title>
-    <link rel="stylesheet" href="{{ url_for("static", filename="style.css") }}">
+    <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
@@ -20,7 +21,7 @@
     <header>
         <div class="container">
             <div class="profile-section">
-                <img src="{{ url_for('static', filename='images/profile.jpeg') }}" alt="Carlos De Niz" class="profile-img">
+                <img src="/static/images/profile.jpeg" alt="Carlos De Niz" class="profile-img">
                 <h1>Carlos De Niz, Ph.D.</h1>
                 <p class="subtitle"> Bioinformatics | AI | Data Science | Electrical Engineering | Aviation </p>
             </div>
@@ -141,17 +142,17 @@
             <!-- Project 1 -->
             <div class="project-card">
                 <i class="fab fa-github"></i>
-                <h3><a href="#" target="_blank" class="repo-link">signal-processing-toolkit</a></h3>
-                <p>A comprehensive Python library implementing advanced signal processing algorithms with real-time data analysis capabilities. Features FFT, wavelet transforms, and filter design.</p>
+                <h3><a href="#" target="_blank" class="repo-link">hail-on-AWS-spot-instances</a></h3>
+                <p>This tool creates an AWS EMR 5.23.0 cluster with Spark 2.4.0 using spot instances. It launches with Hail 0.2 and JupyterLab preinstalled, plus a sample notebook ready to use.</p>
                 <div class="project-meta">
-                    <span><i class="fas fa-code-branch"></i> 124 Stars</span>
+                    <span><i class="fas fa-code-branch"></i> 19 Stars</span>
                     <a href="#" target="_blank" class="repo-btn"><i class="fab fa-github"></i> View Repository</a>
                     <a href="#" target="_blank" class="docs-btn"><i class="fas fa-book"></i> Documentation</a>
                 </div>
             </div>
 
             <!-- Project 2 -->
-            <div class="project-card">
+            <!-- <div class="project-card">
                 <i class="fab fa-github"></i>
                 <h3><a href="#" target="_blank" class="repo-link">power-analysis-simulator</a></h3>
                 <p>Open-source MATLAB/Python toolkit for power electronics simulation and analysis. Includes models for converters, inverters, and grid integration studies.</p>
@@ -159,10 +160,10 @@
                     <span><i class="fas fa-code-branch"></i> 89 Stars</span>
                     <a href="#" target="_blank" class="repo-btn"><i class="fab fa-github"></i> View Repository</a>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Project 3 -->
-            <div class="project-card">
+            <!-- <div class="project-card">
                 <i class="fab fa-github"></i>
                 <h3><a href="#" target="_blank" class="repo-link">embedded-iot-framework</a></h3>
                 <p>A lightweight IoT framework for Raspberry Pi and ESP32 platforms. Provides modular sensor interfaces, MQTT broker, and cloud integration examples.</p>
@@ -171,41 +172,8 @@
                     <a href="#" target="_blank" class="repo-btn"><i class="fab fa-github"></i> View Repository</a>
                     <a href="#" target="_blank" class="demo-btn"><i class="fas fa-play"></i> Live Demo</a>
                 </div>
-            </div>
-
-            <!-- Project 4 -->
-            <div class="project-card">
-                <i class="fab fa-github"></i>
-                <h3><a href="#" target="_blank" class="repo-link">machine-learning-signals</a></h3>
-                <p>Demonstration projects applying deep learning to audio classification, ECG analysis, and predictive maintenance using industrial sensor data.</p>
-                <div class="project-meta">
-                    <span><i class="fas fa-code-branch"></i> 67 Stars</span>
-                    <a href="#" target="_blank" class="repo-btn"><i class="fab fa-github"></i> View Repository</a>
-                    <a href="#" target="_blank" class="tutorial-btn"><i class="fas fa-chalkboard-teacher"></i> Tutorials</a>
-                </div>
-            </div>
-
-            <!-- Project 5 -->
-            <div class="project-card">
-                <i class="fab fa-github"></i>
-                <h3><a href="#" target="_blank" class="repo-link">energy-grid-monitoring</a></h3>
-                <p>Real-time monitoring dashboard for smart grid applications. Visualizes renewable energy sources, battery storage systems, and load forecasting.</p>
-                <div class="project-meta">
-                    <span><i class="fas fa-code-branch"></i> 45 Stars</span>
-                    <a href="#" target="_blank" class="repo-btn"><i class="fab fa-github"></i> View Repository</a>
-                </div>
-            </div>
-
-            <!-- Project 6 -->
-            <div class="project-card">
-                <i class="fas fa-file-code"></i>
-                <h3><a href="#" target="_blank" class="repo-link">research-paper-templates</a></h3>
-                <p>LATEX templates and BibTeX databases for academic publishing in electrical engineering journals. Includes IEEE, ACM, and custom conference formats.</p>
-                <div class="project-meta">
-                    <span><i class="fas fa-code-branch"></i> 23 Stars</span>
-                    <a href="#" target="_blank" class="repo-btn"><i class="fab fa-github"></i> View Repository</a>
-                </div>
-            </div>
+            </div> -->
+      
         </div>
 
         <div class="projects-note">
