@@ -1,0 +1,44 @@
+[project]
+name = "dr-carlos-website"
+version = "0.1.0"
+description = "Professional portfolio for Dr. Carlos, PhD in Electrical Engineering"
+readme = "README.md"
+requires-python = "==3.12.*"  # Python 3.12 as specified
+
+# Dependencies - Flask and optional extras
+dependencies = [
+    "flask>=3.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=24.0.0",
+    "ruff>=0.1.0",  # Python linter
+]
+
+# Build configuration with proper build dependencies
+[build-system]
+requires = ["hatchling", "setuptools"]
+build-backend = "hatchling.build"
+
+# UV-specific configuration (if using uv tool)
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0.0",
+    "black>=24.0.0", 
+    "ruff>=0.1.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["app.py"]
+
+# Linter configuration (optional, for development)
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+# Black formatter configuration (optional)
+[tool.black]
+line-length = 88
+target-version = ['py312']
